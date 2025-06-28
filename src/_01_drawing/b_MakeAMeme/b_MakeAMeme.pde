@@ -5,7 +5,12 @@ void setup() {
  // 2. Set the size of the sketch to be 500 x 500
 
  // The following code loads the image into the program
+  size(500, 500);
   PImage baby = loadImage("fistPump.png");
+  baby.resize(500,500);
+  background(baby);
+  textSize(25);
+  text("TESTED MY PROGRAM", 10, 25);
   
   // 3. Resize the baby image to be the same size as the sketch
   //    Use the baby.resize() command for this
@@ -24,7 +29,7 @@ void setup() {
 }
 
 void draw() {
-
+   fill();
   // 7. Write the messsage "IT WORKED FIRST TIME" at the bottom of the meme
 
   
