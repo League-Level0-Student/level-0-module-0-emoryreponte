@@ -29,7 +29,9 @@ void setup() {
 }
 
 void draw() {
-   fill();
+   fill(1);
+   if(mousePressed)
+      text("IT WORKED", 375, 475);
   // 7. Write the messsage "IT WORKED FIRST TIME" at the bottom of the meme
 
   
