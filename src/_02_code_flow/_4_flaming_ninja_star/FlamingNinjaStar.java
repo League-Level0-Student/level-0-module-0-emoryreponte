@@ -20,14 +20,16 @@ public class FlamingNinjaStar {
 		//         Set its start value to zero.
 		int count4 = 0;
 	       //  LOOP. Start a while loop to repeat all of the code below ONE time (we will change this later)
-		while (count4 > 1) {
+		while (count4 < 26) {
 			rob4.turn(360/8);
 			rob4.move(64);
 			rob4.turn(-40);
+			rob4.setPenColor(255,69,0);
 			rob4.move(flameSize);
 			rob4.turn(170);
 			rob4.move(flameSize);
-			rob4.move(64);
+			rob4.setPenColor(0,0,0);
+			rob4.turn(64);
 			rob4.move(baseSize);
 			count4 += 1;
 		}

@@ -29,11 +29,13 @@ public class PentagonCrazy {
 		//         Set its start value to zero.
 		int count3 = 0;
 		//  LOOP. Start a while loop to repeat the DRAW, TURN, and INCREASE COUNT code 200 times. 
-		while (count3 < 200) {
+		while (count3 < 400) {
 			rob3.move(count3);
-			rob3.turn(angle);
+			rob3.turn(angle+1);
 			count3 += 1;
+			//angle += 1;
 		}
+		rob3.hide();
 				//  DRAW.  Make the robot move the amount in your count variable
 		
 				//  TURN.  Turn the robot the amount in your angle variable + 1
