@@ -15,7 +15,7 @@ public class WorldDomination {
 		}
 		
 		if (input.equals("no")) {
-			JOptionPane.showMessageDialog(null,"sign up for classes then you dumb###");
+			JOptionPane.showMessageDialog(null,"sign up for classes then at the league");
 		}
 		// 2. If they say "yes", tell them they will rule the world.
 
