@@ -16,9 +16,11 @@ void setup() {
   
 // 2. The code below loads your cat picture into the program. 
 //     Make sure the file name is correct for the cat image you saved earlier
-cat = loadImage("cat.jpg");
+cat = loadImage("41011822220_74b865aa5d_b.jpg");
   
 // 3. Set the size of the sketch. Make it big enough to show the cat you chose.
+cat.width = 1000;
+cat.height = 1000;
 
 // 4. Resize the cat so it is the same size as the sketch
 

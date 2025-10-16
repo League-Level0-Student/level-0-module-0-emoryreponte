@@ -27,8 +27,8 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 	
 	boolean started = false;
 	BufferedImage maze;
-	final int frameWidth = 1000;
-	final int frameHeight = 1000;
+	final int frameWidth = 1500;
+	final int frameHeight = 1500;
 
 	ScaryMaze() throws Exception {
 		
@@ -103,7 +103,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		System.out.println("BOO!");
 		
 		if (canPlaySounds) {
-			playScarySound(standardScarySound.wav);
+			playScarySound("standardScarySound.wav");
 			/**********  PLAY A SOUND ***************/
 			//10. Find a scary sound and put it in the _04_amazing_games._1_scary_maze package (where you put your maze picture). 
 			//    You can find a sound on freesound.org. Log in as leagueofamazing/code4life.		
@@ -115,7 +115,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 
 		//12. Find a scary image and drop it into the _04_amazing_games._1_scary_maze package. 
 		//    Use the showScaryImage method below and send it the name of your picture file
-		
+		showScaryImage("scary2.png");
 		
 	}
 	
